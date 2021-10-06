@@ -1,13 +1,14 @@
 using System;
-using System.Collections.Generic;
 using System.Linq;
+using System.IO;
+using System.Net;
+using System.Net.Mail;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using API_SIDE_Dominicana.Model;
-using System.IO;
-using System.Net;
-using System.Net.Mail;
+using API_SIDE_Dominicana.Utilities;
 
 namespace API_SIDE_Dominicana.Controllers
 {
@@ -15,6 +16,7 @@ namespace API_SIDE_Dominicana.Controllers
     [Route("[controller]")]
     public class EmailController : ControllerBase
     {
+        public EmailUtilities emailUtilities = new EmailUtilities(); 
         public readonly string name = "Servicios Integrales de Desarrollo Empresarial"; 
         public readonly string mail = "side.rdominicana@gmail.com"; 
 
@@ -29,9 +31,8 @@ namespace API_SIDE_Dominicana.Controllers
                 using (MailMessage message = new MailMessage(from, to))
                 {
                     message.Subject = email.Subject;
-                    // message.Sender = email.Mail;
-                    message.Body = email.Message;
-                    message.IsBodyHtml = false;
+                    message.Body = emailUtilities.GetHmlBodyMessageToSIDE(email);
+                    message.IsBodyHtml = true;
                     SmtpClient smtp = new SmtpClient();
                     smtp.Host = "smtp.gmail.com";
                     smtp.EnableSsl = true;

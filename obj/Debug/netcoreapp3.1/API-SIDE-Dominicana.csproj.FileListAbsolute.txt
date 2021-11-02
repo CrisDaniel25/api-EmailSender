@@ -7,12 +7,17 @@ C:\Users\crist\source\repos\API-SIDE-Dominicana\bin\Debug\netcoreapp3.1\API-SIDE
 C:\Users\crist\source\repos\API-SIDE-Dominicana\bin\Debug\netcoreapp3.1\API-SIDE-Dominicana.runtimeconfig.dev.json
 C:\Users\crist\source\repos\API-SIDE-Dominicana\bin\Debug\netcoreapp3.1\API-SIDE-Dominicana.dll
 C:\Users\crist\source\repos\API-SIDE-Dominicana\bin\Debug\netcoreapp3.1\API-SIDE-Dominicana.pdb
+C:\Users\crist\source\repos\API-SIDE-Dominicana\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\crist\source\repos\API-SIDE-Dominicana\bin\Debug\netcoreapp3.1\SendGrid.dll
+C:\Users\crist\source\repos\API-SIDE-Dominicana\bin\Debug\netcoreapp3.1\SendGrid.Extensions.DependencyInjection.dll
+C:\Users\crist\source\repos\API-SIDE-Dominicana\bin\Debug\netcoreapp3.1\StarkbankEcdsa.dll
 C:\Users\crist\source\repos\API-SIDE-Dominicana\obj\Debug\netcoreapp3.1\API-SIDE-Dominicana.csprojAssemblyReference.cache
 C:\Users\crist\source\repos\API-SIDE-Dominicana\obj\Debug\netcoreapp3.1\API-SIDE-Dominicana.AssemblyInfoInputs.cache
 C:\Users\crist\source\repos\API-SIDE-Dominicana\obj\Debug\netcoreapp3.1\API-SIDE-Dominicana.AssemblyInfo.cs
 C:\Users\crist\source\repos\API-SIDE-Dominicana\obj\Debug\netcoreapp3.1\API-SIDE-Dominicana.csproj.CoreCompileInputs.cache
 C:\Users\crist\source\repos\API-SIDE-Dominicana\obj\Debug\netcoreapp3.1\API-SIDE-Dominicana.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\crist\source\repos\API-SIDE-Dominicana\obj\Debug\netcoreapp3.1\API-SIDE-Dominicana.RazorTargetAssemblyInfo.cache
+C:\Users\crist\source\repos\API-SIDE-Dominicana\obj\Debug\netcoreapp3.1\API-SIDE-Dominicana.csproj.CopyComplete
 C:\Users\crist\source\repos\API-SIDE-Dominicana\obj\Debug\netcoreapp3.1\staticwebassets\API-SIDE-Dominicana.StaticWebAssets.Manifest.cache
 C:\Users\crist\source\repos\API-SIDE-Dominicana\obj\Debug\netcoreapp3.1\staticwebassets\API-SIDE-Dominicana.StaticWebAssets.xml
 C:\Users\crist\source\repos\API-SIDE-Dominicana\obj\Debug\netcoreapp3.1\API-SIDE-Dominicana.dll

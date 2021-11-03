@@ -31,6 +31,12 @@ namespace API_SIDE_Dominicana
         {
             services.AddControllers();
             services.AddTransient<IEmailService, EmailServices>();
+            services.AddCors(options => options.AddPolicy("AllowAll", build =>
+            {
+                build.AllowAnyOrigin()
+                     .AllowAnyMethod()
+                     .AllowAnyHeader();
+            }));            
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -50,6 +56,8 @@ namespace API_SIDE_Dominicana
             app.UseHttpsRedirection();
 
             app.UseRouting();
+
+            app.UseCors("AllowAll");
 
             app.UseAuthorization();
 

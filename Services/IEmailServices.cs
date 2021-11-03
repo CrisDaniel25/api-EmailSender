@@ -18,7 +18,7 @@ namespace API_SIDE_Dominicana.Services
     {
         private readonly string name_info = "Servicios Integrales de Desarrollo Empresarial"; 
         private readonly string email_info = "info@sidedominicana.com";
-        private readonly string _subject_tecnologia = "Formulario de Solicitudes - Sitio Web <<https://sidedominicana.com>>"; 
+        private readonly string _subject_tecnologia = "Formulario de Solicitudes - Sitio Web <<sidedominicana.com>>"; 
         private readonly string _email_tecnologia = "tecnologia@sidedominicana.com";
         private IConfiguration _configuration;
         private EmailUtilities _emailUtilities = new EmailUtilities();
